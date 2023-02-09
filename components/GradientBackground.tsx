@@ -11,11 +11,11 @@ const GradientBackground = () => {
         >
             <img className="absolute inset-0 h-screen w-screen object-cover " src="/bg3.png" alt="" />
 
-            <img className=" relative w-60 md:w-40 md:p-2 md:ml-4 " src="/logo.png"></img>
+            <img className=" relative w-60 ml-8 md:w-40 md:p-2 md:ml-4 " src="/logo.png"></img>
 
-            <div className=" relative  font-extrabold inset-0 m-auto text-4xl  mx-14 md:mx-60 justify-start flex">
+            <div className=" relative  font-extrabold inset-0 m-auto text-lg md:text-xl lg:text-4xl xl:text-4xl mx-14 md:mx-40 lg:mx-60 justify-start flex">
                 My code is too&nbsp;
-                <div className='font-extrabold text-4xl '>
+                <div className='font-extrabold text-lg md:text-xl lg:text-4xl xl:text-4xl '>
                     <Typewriter
 
                         options={{
@@ -26,18 +26,18 @@ const GradientBackground = () => {
                     />
                 </div>
             </div>
-            <h1 className="relative text-black text-6xl font-bold  m-auto mx-14  md:mx-60 md:text-8xl ">Meet Spaghettify</h1>
-            <p className="relative text-black text-6xl m-auto mt-10 md:mx-60 md:text-3xl ">A Visual Studio Code extension to make your code spaghetti. 🍝</p>
-            <div className="relative flex mx-60 mt-10 font-extrabold text-black tracking-wide ">
-                <div className='w-1/3 mr-4'>
+            <h1 className="relative text-black text-6xl font-bold  m-auto mx-14  md:mx-40 lg:mx-60 md:text-8xl ">Meet Spaghettify</h1>
+            <p className="relative text-black mx-14 m-auto mt-10 md:mx-40 lg:mx-60 md:text-3xl ">A Visual Studio Code extension to make your code spaghetti. 🍝</p>
+            <div className="relative flex flex-col md:flex-row ml-14 md:mx-40 lg:mx-60 lg:mx-60 mt-10 font-extrabold text-black tracking-wide ">
+                <div className='w-1/3 mr-4 mt-8 '>
                     WHAT&apos;S IT FOR?
-                    <p className='text-2xl font-normal mt-4'>Making code worse with AI</p>
+                    <p className='text-2xl font-normal mt-4 mr-8'>Making code worse with AI</p>
                 </div>
-                <div className='w-1/3 mr-4 flex flex-col'>
+                <div className='md:w-1/3 mr-24 md:mr-2 flex flex-col mt-8'>
                     STAGE
-                    <button className='p-2 mt-4 border font-mono tracking-widest mr-16 border-white rounded-lg bg-gradient-to-r from-[#B994FF] to-[#7CE6A0]  border-2 border-black '><p className='text-black'>W̵̨̨̤̫̮̥͓͕̑̇ŏ̷̦̞͖̈̆̅̇͐̊̕ř̴̩̮̯͕͚̭k̵̥̫̅̎͂ͅš̸̺̯͓͉͂ ̷̣͉͕̀̀̄̔̌͛̄̕C̷̡̟͈͈̣͕͓͎͉̮̓̃̅̅͘ỏ̸̢̮͉̹̹̻̘̰̘̖̾́̄̍̉͊́̽̏m̷̪̞̈́̉̊p̷̜̤̻̤̲̆̀̈́̄͌̅̈́̅͑͜ḻ̶̗̖̞̼̠̎̔́̾̒͋̈̐̚͜ę̴̤̦̼̭̣̼̣̾ţ̸̲̹̯̺͇̦̥͓̃͒͒̂͒͑̒ē̴̢̮̻̗̘̜͎̭̈́̚͝l̸̨̠͓͎͂̉͆͌͌̄̾̿y̵̢̧̼͓̝̭̠̖̔̀̌̑͐͆͘ͅ</p></button>
+                    <button className='p-2 mt-4 border font-mono tracking-widest md:mr-16 border-white rounded-lg bg-gradient-to-r from-[#B994FF] to-[#7CE6A0]  border-2 border-black '><p className='text-black'>W̵̨̨̤̫̮̥͓͕̑̇ŏ̷̦̞͖̈̆̅̇͐̊̕ř̴̩̮̯͕͚̭k̵̥̫̅̎͂ͅš̸̺̯͓͉͂ ̷̣͉͕̀̀̄̔̌͛̄̕C̷̡̟͈͈̣͕͓͎͉̮̓̃̅̅͘ỏ̸̢̮͉̹̹̻̘̰̘̖̾́̄̍̉͊́̽̏m̷̪̞̈́̉̊p̷̜̤̻̤̲̆̀̈́̄͌̅̈́̅͑͜ḻ̶̗̖̞̼̠̎̔́̾̒͋̈̐̚͜ę̴̤̦̼̭̣̼̣̾ţ̸̲̹̯̺͇̦̥͓̃͒͒̂͒͑̒ē̴̢̮̻̗̘̜͎̭̈́̚͝l̸̨̠͓͎͂̉͆͌͌̄̾̿y̵̢̧̼͓̝̭̠̖̔̀̌̑͐͆͘ͅ</p></button>
                 </div>
-                <div className='w-1/3 mr-4 '>
+                <div className='w-1/3 mr-4 mt-8 '>
                     WHO MADE IT?
                     <div className='flex'>
                         <img className='rounded-full w-10 mt-4' src="/jmill.jpeg"></img>
@@ -48,18 +48,18 @@ const GradientBackground = () => {
                 </div>
 
             </div>
-            <div className="flex flex-col mx-60 mt-10 font-extrabold text-black ">
+            <div className="flex flex-col mx-14 md:mx-40 lg:mx-60 mt-10 font-extrabold text-black ">
                 SHARE
                 <TwitterShareButton url={"localhost:3000"}>
                     <img className='w-8' src="/twitter.png" />
                 </TwitterShareButton>
             </div>
-            <div className="mx-60 mt-32 ">
+            <div className="mx-14 md:mx-40 lg:mx-60 md:mt-28 lg:mt-32 ">
                 <p className='my-8 text-xl'>Coding is not a very visceral activity. You sit in front of a screen, type some stuff, and then you have some stuff on a screen. What if we could make it more delicious, like shoveling down a massive plate of spaghetti. </p>
 
-                <p className='my-8 text-xl'>Meet Spaghettify, a Visual Studio Code extension that turns your not-so-tasty code into spaghetti. Mama Mia! 🤌</p>
+                <p className='my-8 text-xl'>Meet <a className='underline text-purple-500 font-bold' target="_blank" rel="noreferrer" href='https://marketplace.visualstudio.com/items?itemName=BCAD.spaghettify'>Spaghettify</a>, a Visual Studio Code extension that turns your not-so-tasty code into spaghetti. Mama Mia! 🤌</p>
 
-                <p className='text-6xl font-bold'> # What can Spaghettify do?</p>
+                <p className='text-4xl md:text-6xl font-bold'> # What can Spaghettify do?</p>
                 <p className='mt-8 text-xl'>Spaghettify comes with several ways to make your code a lot more flavorful. (and...maybe a bit less healthy) </p>
                 <img className='rounded-3xl mt-8' src='/demo.png'></img>
                 <p className='mt-8 text-xl'>For example, here&apos;s some Python code which finds neighbors in a 2D array:</p>
@@ -83,7 +83,7 @@ const GradientBackground = () => {
                     />
                 </div>
 
-                <p className='mt-8 tracking-wide text-6xl font-bold'># Spaghetti Time </p>
+                <p className='mt-8 tracking-wide text-4xl md:text-6xl  font-bold'># Spaghetti Time </p>
                 <p className='my-16 tracking-wide text-4xl'># Introduce a Bug</p>
                 <p className='my-8 text-xl'>Throw in a subtle change that will break the code, leaving your coworkers scratching their heads for hours. Add a stray +1, extra iteration, or nested list with ease! Can you spot the bug? 🐛</p>
 
