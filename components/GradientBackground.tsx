@@ -58,9 +58,9 @@ const GradientBackground = () => {
                     </TwitterShareButton>
                 </div>
                 <div className='md:w-1/3 mr-24 md:mr-2 flex flex-col mt-8'>
-                    GET IT NOW
+                    DOWNLOAD
                     <a target="_blank" rel="noreferrer" href="https://marketplace.visualstudio.com/items?itemName=BCAD.spaghettify" >
-                        <button className='p-2 px-4 mt-4 border font-mono tracking-widest md:mr-16  rounded-lg bg-gradient-to-r from-[#7CEAA1] to-[#B13ACC]  border-2 border-black  '><p className='text-white'>Download</p></button>
+                        <button className='p-2 px-4 mt-4 border font-mono tracking-widest md:mr-16  rounded-lg bg-gradient-to-r from-[#7CEAA1] to-[#B13ACC]  border-2 border-black  '><p className='text-white'>GET IT NOW</p></button>
                     </a>
                 </div>
                 <div className='w-1/3 mr-4 mt-8 '>
@@ -70,7 +70,7 @@ const GradientBackground = () => {
             </div>
 
             <div className="mx-14 md:mx-40 lg:mx-60 md:mt-28 lg:mt-32 ">
-                <p className='my-8 text-xl'>Coding is not a very delicious activity. You sit in front of a screen, type some stuff, and then you have some stuff on a screen. What if we could make it more delicious, like shoveling down a massive plate of spaghetti. </p>
+                <p className='my-8 text-xl'>Coding is not a very delicious activity. You sit in front of a screen, type some stuff, and then you have some stuff on a screen. What if we could make it more delicious, like shoveling down a massive plate of spaghetti? </p>
 
                 <p className='my-8 text-xl'>Meet <a className='underline text-purple-500 font-bold' target="_blank" rel="noreferrer" href='https://marketplace.visualstudio.com/items?itemName=BCAD.spaghettify'>Spaghettify</a>, a Visual Studio Code extension that turns your not-so-tasty code into spaghetti. Mama Mia! 🤌</p>
 
