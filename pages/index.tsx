@@ -11,6 +11,10 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
+          <Head>
+        <title>Spaghettify🍝</title>
+
+      </Head>
       {/* <div className='relative flex-row'> */}
         <GradientBackground />
 
