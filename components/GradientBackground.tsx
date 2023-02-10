@@ -70,7 +70,7 @@ const GradientBackground = () => {
             </div>
 
             <div className="mx-14 md:mx-40 lg:mx-60 md:mt-28 lg:mt-32 ">
-                <p className='my-8 text-xl'>Coding is not a very visceral activity. You sit in front of a screen, type some stuff, and then you have some stuff on a screen. What if we could make it more delicious, like shoveling down a massive plate of spaghetti. </p>
+                <p className='my-8 text-xl'>Coding is not a very delicious activity. You sit in front of a screen, type some stuff, and then you have some stuff on a screen. What if we could make it more delicious, like shoveling down a massive plate of spaghetti. </p>
 
                 <p className='my-8 text-xl'>Meet <a className='underline text-purple-500 font-bold' target="_blank" rel="noreferrer" href='https://marketplace.visualstudio.com/items?itemName=BCAD.spaghettify'>Spaghettify</a>, a Visual Studio Code extension that turns your not-so-tasty code into spaghetti. Mama Mia! 🤌</p>
 
