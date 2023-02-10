@@ -60,7 +60,7 @@ const GradientBackground = () => {
                 <div className='md:w-1/3 mr-24 md:mr-2 flex flex-col mt-8'>
                     GET IT NOW
                     <a target="_blank" rel="noreferrer" href="https://marketplace.visualstudio.com/items?itemName=BCAD.spaghettify" >
-                        <button className='p-2 mt-4 border font-mono tracking-widest md:mr-16  rounded-lg bg-gradient-to-r from-[#7CEAA1] to-[#B13ACC]  border-2 border-black  '><p className='text-white'>Download Extension</p></button>
+                        <button className='p-2 px-4 mt-4 border font-mono tracking-widest md:mr-16  rounded-lg bg-gradient-to-r from-[#7CEAA1] to-[#B13ACC]  border-2 border-black  '><p className='text-white'>Download</p></button>
                     </a>
                 </div>
                 <div className='w-1/3 mr-4 mt-8 '>
