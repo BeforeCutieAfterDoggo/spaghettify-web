@@ -13,9 +13,9 @@ const GradientBackground = () => {
 
             <img className=" relative w-60 ml-8 md:w-40 md:p-2 md:ml-4 " src="/logo.png"></img>
 
-            <div className=" relative  font-extrabold inset-0 m-auto text-md md:text-xl lg:text-4xl xl:text-4xl mx-14 md:mx-40 lg:mx-60 justify-start flex">
+            <div className=" relative  font-extrabold inset-0 m-auto text-sm md:text-xl lg:text-4xl xl:text-4xl mx-14 md:mx-40 lg:mx-60 justify-start flex">
                 My code is too&nbsp;
-                <div className='font-extrabold text-md md:text-xl lg:text-4xl xl:text-4xl italic'>
+                <div className='font-extrabold text-sm md:text-xl lg:text-4xl xl:text-4xl italic'>
                     <Typewriter
 
                         options={{
