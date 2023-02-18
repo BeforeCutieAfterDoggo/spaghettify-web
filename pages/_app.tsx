@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
 
   useEffect(() => {
-    Fathom.load(process.env.NEXT_PUBLIC_FATHOM_CODE, {
+    Fathom.load(process.env.NEXT_PUBLIC_FATHOM_CODE as string, {
       includedDomains: ["spaghettify.dev"],
     });
 
