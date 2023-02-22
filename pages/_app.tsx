@@ -1,13 +1,23 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
-import { useFathom } from "@/hooks/useFathom";
+import PlausibleProvider from "next-plausible";
+import { PropsWithChildren } from "react";
 
 export default function App({ Component, pageProps }: AppProps) {
-  useFathom("MZGKSHWL", {
-    url: "https://ruby-parrot.spaghettify.dev/script.js",
-    includedDomains: ["spaghettify.dev"],
-    spa: "auto",
-  });
+  const PlausibleWrapper = ({ children }: PropsWithChildren<{}>) => {
+    if (process.env.NODE_ENV === "production") {
+      return (
+        <PlausibleProvider domain="spaghettify.dev">
+          {children}
+        </PlausibleProvider>
+      );
+    }
+    return <>{children}</>;
+  };
 
-  return <Component {...pageProps} />;
+  return (
+    <PlausibleWrapper>
+      <Component {...pageProps} />;
+    </PlausibleWrapper>
+  );
 }
